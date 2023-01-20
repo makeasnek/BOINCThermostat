@@ -1,0 +1,39 @@
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 55
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Found temp 80
+INFO:root:Sleeping due to temperature
+DEBUG:root:Running BOINC rpc request set_run_mode never 660 None
+DEBUG:root:Running BOINC rpc request set_gpu_mode never 660 None
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+DEBUG:root:Running BOINC rpc request get_cc_status None None None
+ERROR:root:No temps found!
