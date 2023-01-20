@@ -5,7 +5,7 @@ control_boinc=True # Set to True to use this as your BOINC manager and directly 
 enable_temp_control=True # Enable controlling BOINC based on temp. Default: True
 start_temp=50 # Start crunching if temp > this number, whole numbers only! Default: 50.
 stop_temp=75 # Stop crunching is temp > this number, whole numbers only! Default: 75
-# Methods of fetching temp data, only use one!
+# Methods of fetching temp data, only use one (leave others as is)!
 temp_url=None # URL to fetch temperature data from, Default: None. # Note this will check temperature quite frequently. This is fine for your smart thermostats on a local IP but not great for publicly-accesible data points. Example: 'https://mytempcheck.com'
 temp_command=None # Shell command to run to check temp data. Must use absolute paths ie '/bin/bash /home/user/tempcheck.sh'.
 # If you want to write a custom function to retrieve temperature information, put it here. It must return a string value such as '70' or None
