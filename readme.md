@@ -34,7 +34,7 @@ Open `config.py` in a text editor and change the settings you want. You should p
 
 ## Privacy & Legal:
 - This software comes with no warranty and is provided as-is. Be wise when running software from some random github account. It may crash your computer. By using it, you agree to hold the developers harmless for any damage it may cause whether through negligence, accident, or malice to the fullest extent legally possible. You also agree to allow yourself to have a wonderful day today or you are not allowed to use this software.
-- If you submit any or pull requests to this repository or its developer, you agree to have the code ownership transferred to the repository owner and licensed under the same license as the other code in the repository is licensed under.
+- If you submit any code or pull requests to this repository or its developer, you agree to have the code ownership transferred to the repository owner and licensed under the same license as the other code in the repository is licensed under.
 - This software is produced independently of the Gridcoin and BOINC projects without their approval or endorsement.
 - This software is released under the license specified in the LICENSE file. It also incorporates components of other software, whose licenses are noted where imported in the directory structure.
 - This tool does not send any of your information anywhere. It is released under the license described in the LICENSE file. Other portions incorporated from other authors may have different license files which describe those licenses.
