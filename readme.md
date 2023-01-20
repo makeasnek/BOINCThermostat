@@ -4,6 +4,9 @@ temperature data from a command, a URL, or any custom source you want. Note that
 while others may need to restart the entire WU. There are more sophisticated ways to do this,
 I just made this to replicate a dumb thermostat like might control your home furnace. Special thanks to <a href="https://github.com/nielstron/pyboinc">PyBOINC</a> which this program uses extensively.
 
+Suggestion for those crunching with multiple rigs: Stagger temperature setpoints so that all machines don't resume/suspend at the same time. This enables the thermostat to have options aside from "off" and "full blast"
+
+
 If you are crunching BOINC, be sure to collect your Gridcoin rewards as well. If you find this tool useful, please consider sidestaking or donating some GRC to me RzUgcntbFm8PeSJpauk6a44qbtu92dpw3K 
 ## Quickstart Instructions:
 <b>For all platforms</b>: 
