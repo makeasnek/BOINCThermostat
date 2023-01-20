@@ -10,7 +10,7 @@ temp_url=None # URL to fetch temperature data from, Default: None. # Note this w
 temp_command=None # Shell command to run to check temp data. Must use absolute paths ie '/bin/bash /home/user/tempcheck.sh'.
 # If you want to write a custom function to retrieve temperature information, put it here. It must return a string value such as '70' or None
 def temp_function():
-    # blah blah blah your code here, return some int value
+    # blah blah blah your code here, return some value
     return None
 
 temp_regex=r'\d*' # Regular expression used to scrape temp from command, URL, or other specified source. This just grabs the first sequence of numbers it finds. Default: r'\d*'. Examples: https://www.dataquest.io/blog/regex-cheatsheet/
@@ -19,7 +19,7 @@ temp_sleep_time=10 # If we should stop crunching due to temp, sleep this many mi
 ##############                ADVANCED SETTINGS. DO NOT EDIT THESE IF YOU DON'T UNDERSTAND THEIR IMPLICATIONS               ##############
 ##########################################################################################################################################
 boinc_data_dir=None # Example: '/var/lib/boinc-client' or 'C:\\ProgramData\\BOINC\\'. Only needed if in a non-standard location, otherwise None.
-log_level='ERROR' # Options are: 'DEBUG','INFO','WARNING','ERROR', default is 'WARNING'
+log_level='ERROR' # Options are: 'DEBUG','INFO','WARNING','ERROR', default is 'ERROR'
 max_logfile_size_in_mb=1 # Default: 10
 # these are not fully implemented yet, but would theoretically allow you to control a non-local BOINC client. They may or may not work idk.
 boinc_ip='127.0.0.1' # defaults to '127.0.0.1' with quotes
