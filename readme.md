@@ -1,5 +1,5 @@
 # BOINCThermostat
-BOINCThermostat is a simple python script which till suspend/resume <a href="https://boinc.berkeley.edu">BOINC</a> based on ambient air temperature. It can fetch
+BOINCThermostat is a simple python script which will suspend/resume <a href="https://boinc.berkeley.edu">BOINC</a> based on ambient air temperature. It can fetch
 temperature data from a command, a URL, or any custom source you want. Note that some BOINC projects handle checkpointing well
 while others may need to restart the entire WU. There are more sophisticated ways to do this,
 I just made this to replicate a dumb thermostat like might control your home furnace. Special thanks to <a href="https://github.com/nielstron/pyboinc">PyBOINC</a> which this program uses extensively.
