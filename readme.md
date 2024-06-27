@@ -1,8 +1,6 @@
 # BOINCThermostat
-BOINCThermostat is a simple python script which will suspend/resume <a href="https://boinc.berkeley.edu">BOINC</a> based on ambient air temperature. It can fetch
-temperature data from a command, a URL, or any custom source you want. Note that some BOINC projects handle checkpointing well
-while others may need to restart the entire WU. There are more sophisticated ways to do this,
-I just made this to replicate a dumb thermostat like might control your home furnace. Special thanks to <a href="https://github.com/nielstron/pyboinc">PyBOINC</a> which this program uses extensively.
+BOINCThermostat is a simple python script which will suspend/resume <a href="https://boinc.berkeley.edu">BOINC</a> based on ambient air temperature or other variable you choose. It can fetch
+temperature data from a command, a URL, or any custom source you want. Note that some BOINC projects handle checkpointing well while others may need to restart the entire WU. There are more sophisticated ways to do this, I just made this to replicate a dumb thermostat like might control your home furnace. Special thanks to <a href="https://github.com/nielstron/pyboinc">PyBOINC</a> which this program uses extensively.
 
 Suggestion for those crunching with multiple rigs: Stagger temperature setpoints so that all machines don't resume/suspend at the same time. This enables the thermostat to have options aside from "off" and "full blast"
 
@@ -16,20 +14,16 @@ Open `config.py` in a text editor and change the settings you want. You should p
 <h4>Windows</h4>
 
  - Download the latest version of python from python.org. Enable the "install to system path" option while installing.
- - In command prompt, run the command `python -m pip install --upgrade pip`
- - In command prompt, run the command `pip install -r "C:\Users\user\Downloads\BOINCThermostat-master\requirements.txt"` (or wherever you saved this tool)
  - Double-click on main.py or run `python "C:\path\to\main.py"` from command prompt. We suggest the second method as it will display errors if the program exits unexpectedly
 
 <h4>Linux</h4>
 
  - Open a terminal and go to the folder you downloaded this tool into using `cd /home/user/Downloads/BOINCThermostat` or wherever you put it
- - Run `pip3 install -r requirements.txt` (Note that you need pip installed, if you don't have it, you might need to run a `sudo apt install python3-pip`)
  - Run `python3 main.py`
 
 <h4>OS X</h4>
 
  - Open a terminal and go to the folder you downloaded this tool into using `cd "/home/user/Downloads/BOINCThermostat"` or wherever you put it
- - Run `pip3 install -r requirements.txt`
  - Run `python3 main.py`
 
 ## Privacy & Legal:
